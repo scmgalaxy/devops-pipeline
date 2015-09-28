@@ -15,4 +15,17 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+<distributionManagement>
+  <repository>
+     <id>deployment</id>
+     <name>Internal Releases</name>
+     <url>http://uvo18x4vqaant1no4d6.vm.cld.sr:8081/nexus/content/repositories/releases/</url>
+  </repository>
+  <snapshotRepository>
+     <id>deployment</id>
+     <name>Internal Releases</name>
+     <url>http://uvo18x4vqaant1no4d6.vm.cld.sr:8081/nexus/content/repositories/snapshots/</url>
+  </snapshotRepository>
+</distributionManagement>
 </project>
