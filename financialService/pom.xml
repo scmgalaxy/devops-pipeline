@@ -20,12 +20,12 @@
   <repository>
      <id>deployment</id>
      <name>Internal Releases</name>
-     <url>http://ec2-52-11-236-196.us-west-2.compute.amazonaws.com:8081/nexus/content/repositories/releases/</url>
+     <url>http://uvo1ppw4qmimuo3p1tg.vm.cld.sr:8081/nexus/content/repositories/releases/</url>
   </repository>
   <snapshotRepository>
      <id>deployment</id>
      <name>Internal Releases</name>
-     <url>ec2-52-11-236-196.us-west-2.compute.amazonaws.com:8081/nexus/content/repositories/snapshots/</url>
+     <url>http://uvo1ppw4qmimuo3p1tg.vm.cld.sr:8081/nexus/content/repositories/snapshots/</url>
   </snapshotRepository>
 </distributionManagement>
 </project>
